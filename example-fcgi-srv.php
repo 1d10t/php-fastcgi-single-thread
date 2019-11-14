@@ -9,7 +9,6 @@ ob_implicit_flush();
 fcgi_clean_shit();
 
 function generate_body($R){
-	global $sphinx;
 	
 	fcgi_assign_globals($R, $a_get = true, $a_post = true, $a_mpost = true, $upload_files = false, $a_sess = false);
 	
